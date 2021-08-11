@@ -5,11 +5,12 @@ creating tags to be used in TypeSkripp discord bot
 
 Template
 ```toml
-[hello] # tag's name
-keywords = ["hello", "hello-world"] # keywords to trigger this tag
-content = "" 
-hello the earth is round # here is what the bot will send
-""
+[tagname] # tag's name
+keywords = ["tagname", "alias1", "alias2"] # keywords to trigger this tag, make sure to include the tag name aswell!
+content = """ 
+Put your tag content here! 
+"""
+
 ```
 
 Steps
