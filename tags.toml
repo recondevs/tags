@@ -1,0 +1,5 @@
+[test]
+keywords = ["test"]
+content = """
+tags are  working fine!
+"""
