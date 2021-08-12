@@ -19,7 +19,7 @@ Discord.js v13 requires you to add intents to the client
 """
 
 [notworking]
-keywords = ["nw"]
+keywords = ["nw", "dnw"]
 content = """
 When someone asks a question about a problem with their code, we need to know what's wrong with it. Stating “it's not working” is not helpful.
 Please give us the full description of the problem, which should include the following:
@@ -59,13 +59,33 @@ content = """
 13. No crossposting in #『📗』help-1 and #『📕』help-2 
 """
 
-[ofundefined]
-keywords = ["of undefined"]
+[of undefined]
+keywords = ["undefined", "of undefined"]
 content = """
 `TypeError: Cannot read property 'bar' of undefined`
 The variable you're trying to access the property `bar` of is undefined, not `bar` itself! | `foo.bar` - `foo`'s value is undefined.
 The stack trace points exactly to the line the error occurs on.
 For more information: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_property>
+"""
+
+[AbortController]
+keywords = ["ac", "abort", "controller"]
+content= """
+**⚙️ Abort Controller /unexpected token '?'  (node version)**
+• `ReferenceError: AbortController is not defined`
+• `SyntaxError: Unexpected token '?' at node_modules/discord.js/src/rest/RESTManager.js:32`
+• Discord.js v13 requires Node.js version 16.6 or newer to run!
+• If you run your bot through a process manager, make sure to restart the daemon process to use the new node version
+• Unsure you are using the right one? Log `console.log(process.version)` in your code
+"""
+
+[application.commands]
+keywords = ["application.commands", "missing access"]
+content = """
+• `DiscordAPIError: Missing Access when trying to register slash commands`
+• Enable the applications.commands scope for your bot in oauth
+• You can also generate an invite by doing `console.log(<Client>.generateInvite({ scopes: ['applications.commands'] }))`,
+})`
 """
 
 [options.array]
@@ -74,16 +94,4 @@ content = """
 `interaction.options.array()` is not a function anymore. 
 Replace `array()` with data. Do not put `()` around it, as it is a property and not a function
 Read more about CommandInteractionOptionResolver#data [here](https://discord.js.org/#/docs/main/stable/class/CommandInteractionOptionResolver?scrollTo=data)
-"""
-
-[guide]
-keywords = ["guide"]
-content = """
-The Discord.js ultimate guide: https://discordjs.guide
-"""
-
-[readtheerror]
-keywords = ["read the error", "rte"]
-content = """
-Read the error. You need no more information than the error's context
 """
