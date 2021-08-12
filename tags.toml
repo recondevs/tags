@@ -14,7 +14,6 @@ Discord.js v13 requires you to add intents to the client
 - const client = new Discord.Client()
 - const client = new Discord.Client({ ws: { intents: 32767 } })
 
-+ const { Intents } = Discord;
 + const client = new Discord.Client({ intents: 32767 })
 ```
 """
@@ -81,4 +80,10 @@ Read more about CommandInteractionOptionResolver#data [here](https://discord.js.
 keywords = ["guide"]
 content = """
 The Discord.js ultimate guide: https://discordjs.guide
+"""
+
+[readtheerror]
+keywords = ["read the error", "rte"]
+content = """
+Read the error. You need no more information than the error's context
 """
