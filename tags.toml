@@ -3,3 +3,88 @@ keywords = ["test"]
 content = """
 tags are  working fine!
 """
+
+[clientmissingintents]
+keywords = ["cmi"]
+content = """
+Error `[CLIENT_MISSING_INTENTS]`
+Fix:
+Discord.js v13 requires you to add intents to the client
+```diff
+- const client = new Discord.Client()
+- const client = new Discord.Client({ ws: { intents: 32767 } })
+
++ const { Intents } = Discord;
++ const client = new Discord.Client({ intents: 32767 })
+```
+"""
+
+[notworking]
+keywords = ["nw"]
+content = """
+When someone asks a question about a problem with their code, we need to know what's wrong with it. Stating “it's not working” is not helpful.
+Please give us the full description of the problem, which should include the following:
+  1. what needs to be accomplished
+  2. what has been tried already (including relevant code!)
+  3. a description of what the code did
+  4. an explanation of why this behavior does not achieve the goal
+"""
+
+[rule2]
+keywords = ["r2"]
+content = """
+Rule 2. We expect you to have a solid understanding of JavaScript. Do not ask general questions here. There is a countless number of exceptional online resources at your disposal. We can usually point you in the right direction, but don't expect us to teach you the fundamentals from scratch. 
+"""
+
+[rule4]
+keywords = ["r4"]
+content = """
+4. When asking for help, make sure to provide as much detail as possible. Simply saying, "it's broke yo", or "how 2 make music bot" certainly won't get either of us anywhere.
+"""
+
+[rule5]
+keywords = ["r5"]
+content = """
+5. Don't expect us to hold your hand entirely. We can help you understand concepts and locate the correct resources, but not write your code for you.
+"""
+
+[rule13]
+keywords = ["r13"]
+content = """
+13. No crossposting in #『📗』help-1 and #『📕』help-2 
+"""
+
+[rule6]
+keywords = ["r6"]
+content = """
+6. Do not mention or DM individual members just for help. You may not get a reply quickly, if at all. Post your question in the public channels where more people can see it.
+"""
+
+[pins]
+keywords = ["pins"]
+content = """
+Reading the pins is a good practice.
+"""
+
+[ofundefined]
+keywords = ["undefined"]
+content = """
+`TypeError: Cannot read property 'bar' of undefined`
+The variable you're trying to access the property `bar` of is undefined, not `bar` itself! | `foo.bar` - `foo`'s value is undefined.
+The stack trace points exactly to the line the error occurs on.
+For more information: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_property>
+"""
+
+[options.array]
+keywords = ["options.array"]
+content = """
+`interaction.options.array()` is not a function anymore. 
+Replace `array()` with data. Do not put `()` around it, as it is a property and not a function
+Read more about CommandInteractionOptionResolver#data [here](https://discord.js.org/#/docs/main/stable/class/CommandInteractionOptionResolver?scrollTo=data)
+"""
+
+[guide]
+keywords = ["guide"]
+content = """
+The Discord.js ultimate guide: https://discordjs.guide
+"""
