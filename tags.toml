@@ -79,8 +79,8 @@ The stack trace points exactly to the line the error occurs on.
 For more information: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_property>
 """
 
-[application.commands]
-keywords = ["application.commands", "missing access"]
+[applicationscommands]
+keywords = ["applicationscommands", "missing access"]
 content = """
 • `DiscordAPIError: Missing Access when trying to register slash commands`
 • Enable the applications.commands scope for your bot in oauth
@@ -88,8 +88,8 @@ content = """
 })`
 """
 
-[options.array]
-keywords = ["options.array"]
+[optionsarray]
+keywords = ["optionsarray", "anaf"]
 content = """
 `interaction.options.array()` is not a function anymore. 
 Replace `array()` with data. Do not put `()` around it, as it is a property and not a function
