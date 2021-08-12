@@ -95,3 +95,9 @@ content = """
 Replace `array()` with data. Do not put `()` around it, as it is a property and not a function
 Read more about CommandInteractionOptionResolver#data [here](https://discord.js.org/#/docs/main/stable/class/CommandInteractionOptionResolver?scrollTo=data)
 """
+
+[tias]
+keywords = ["tias", "try it and see"]
+content = """
+https://tryitands.ee
+"""
