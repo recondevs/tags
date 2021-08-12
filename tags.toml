@@ -5,7 +5,7 @@ tags are  working fine!
 """
 
 [clientmissingintents]
-keywords = ["cmi"]
+keywords = ["cmi", "intents"]
 content = """
 Error `[CLIENT_MISSING_INTENTS]`
 Fix:
@@ -24,10 +24,10 @@ keywords = ["nw"]
 content = """
 When someone asks a question about a problem with their code, we need to know what's wrong with it. Stating “it's not working” is not helpful.
 Please give us the full description of the problem, which should include the following:
-  1. what needs to be accomplished
-  2. what has been tried already (including relevant code!)
-  3. a description of what the code did
-  4. an explanation of why this behavior does not achieve the goal
+  • what needs to be accomplished
+  • what has been tried already (including relevant code!)
+  • a description of what the code did
+  • an explanation of why this behavior does not achieve the goal
 """
 
 [rule2]
@@ -48,26 +48,20 @@ content = """
 5. Don't expect us to hold your hand entirely. We can help you understand concepts and locate the correct resources, but not write your code for you.
 """
 
-[rule13]
-keywords = ["r13"]
-content = """
-13. No crossposting in #『📗』help-1 and #『📕』help-2 
-"""
-
 [rule6]
 keywords = ["r6"]
 content = """
 6. Do not mention or DM individual members just for help. You may not get a reply quickly, if at all. Post your question in the public channels where more people can see it.
 """
 
-[pins]
-keywords = ["pins"]
+[rule13]
+keywords = ["r13"]
 content = """
-Reading the pins is a good practice.
+13. No crossposting in #『📗』help-1 and #『📕』help-2 
 """
 
 [ofundefined]
-keywords = ["undefined"]
+keywords = ["of undefined"]
 content = """
 `TypeError: Cannot read property 'bar' of undefined`
 The variable you're trying to access the property `bar` of is undefined, not `bar` itself! | `foo.bar` - `foo`'s value is undefined.
