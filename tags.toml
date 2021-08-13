@@ -136,8 +136,8 @@ Please just ask your question. Don't ask to ask. Don't ask for topic experts or 
 [snippet]
 keywords = ["vscode snippet", "snippet", "!djs", "quick code"]
 content = """
-Woder how you can wite something in [Visual Studio Code](https://code.visualstudio.com) and press tab to write a large chunk of code?
-This is called User Snippets. [Recon](https://youtube.com/reconlxx) has already made a video about that here: <https://youtu.be/ahbjORB5lfk>
+Woder how you can wite something in Visual Studio Code and press tab to write a large chunk of code?
+This is called User Snippets. Recon has already made a video about that here: <https://youtu.be/ahbjORB5lfk>
 """
 
 [guide]
