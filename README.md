@@ -6,7 +6,7 @@ creating tags to be used in TypeSkripp discord bot
 Template
 ```toml
 [tagname] # tag's name
-keywords = ["tagname", "alias1", "alias2"] # keywords to trigger this tag, make sure to include the tag name aswell!
+keywords = ["tagname", "alias1", "alias2"] # keywords to trigger this tag
 content = """ 
 Put your tag content here! 
 """
