@@ -4,6 +4,13 @@ content = """
 tags are  working fine!
 """
 
+[vscodeTheme]
+keywords = ["theme", "codetheme", "vsc theme"]
+content = """
+Recon uses the Palenight Theme You can search for `whizkydee.material-palenight-theme`or click the Lonk below!
+<https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme>
+"""
+
 [clientmissingintents]
 keywords = ["cmi", "intents"]
 content = """
