@@ -111,6 +111,7 @@ We can't help with external *npm packages*, *command handlers*, *event handlers*
 [version13]
 keywords = ["v13"]
 content = """
+**<:update:875645449523064852> Discord.JS Version 13**
 We are not providing support for external npm packages, here are some useful links u can learn from.
 • [Project Handler (command, event, slash commands)](<https://youtu.be/8yLIPTxrj08>)
 • [Slash Commands](<https://www.youtube.com/watch?v=EN7LH89TUN4&t=819s>)
@@ -126,7 +127,6 @@ You need to update your node, [click here to download](<https://nodejs.org/en/do
 If you are on replit [click here](https://discord.com/channels/731532456724922459/766116919983079434/875648198859968522)
 """
 
-# requested by pogchampy#7738
 [asktoask]
 keywords = ["asktoask", "ata"] # ["ask"]
 content = """
@@ -146,7 +146,7 @@ content = """
 The greatest and official guide of all time, [Discordjs.guide](https://discord.js.guide 'Click here to go')
 """
 
-[dead]
+[dead-chat]
 keywords = ["dead"]
 content = """
 https://media.discordapp.net/attachments/860072364963790878/868263751399374918/ded-chat.png?width=400&height=213
