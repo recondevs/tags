@@ -4,6 +4,12 @@ content = """
 tags are  working fine!
 """
 
+[test]
+keywords = ["test"]
+content = """
+tags are  working fine!
+"""
+
 [clientmissingintents]
 keywords = ["cmi", "intents"]
 content = """
