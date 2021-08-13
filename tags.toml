@@ -102,7 +102,7 @@ https://tryitands.ee
 """
 
 [External-Sources]
-keywords = ['external']
+keywords = ["external"]
 content = """
 **<:update:875645449523064852> External Sources**
 We can't help with external *npm packages*, *command handlers*, *event handlers*. Some examples, we are not providing support for *discord-buttons* as there is a video already about it to learn more about it use `v13` tag, different command handlers is just a waste of time to provide support for especially when you don't quite understand what the handler is doing
@@ -110,7 +110,7 @@ We can't help with external *npm packages*, *command handlers*, *event handlers*
 """
 
 [version13]
-keywords = ['v13']
+keywords = ["v13"]
 content = """
 We are not providing support for external npm packages, here are some useful links u can learn from.
 • [#1 Slash Commands](https://www.youtube.com/watch?v=o6YWbnvncQE&t=3s)
@@ -120,10 +120,9 @@ We are not providing support for external npm packages, here are some useful lin
 """
 
 [node]
-keywords = ['node']
+keywords = ["node"]
 content = """
 You need to update your node, [click here to download](https://nodejs.org/en/download/)
-
 If you are on replit [click here](https://discord.com/channels/731532456724922459/766116919983079434/875648198859968522)
 """
 
