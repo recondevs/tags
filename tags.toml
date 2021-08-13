@@ -79,17 +79,16 @@ The stack trace points exactly to the line the error occurs on.
 For more information: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_property>
 """
 
-[applicationscommands]
-keywords = ["applicationscommands", "missing access"]
+[application.commands]
+keywords = ["application.commands", "missing access"]
 content = """
 • `DiscordAPIError: Missing Access when trying to register slash commands`
 • Enable the applications.commands scope for your bot in oauth
-• You can also generate an invite by doing `console.log(<Client>.generateInvite({ scopes: ['applications.commands'] }))`,
-})`
+• You can also generate an invite by doing `console.log(<Client>.generateInvite({ scopes: ['applications.commands'] }))`
 """
 
-[optionsarray]
-keywords = ["optionsarray", "anaf"]
+[options.array]
+keywords = ["options.array"]
 content = """
 `interaction.options.array()` is not a function anymore. 
 Replace `array()` with data. Do not put `()` around it, as it is a property and not a function
