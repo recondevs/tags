@@ -132,3 +132,16 @@ keywords = ["asktoask", "ata"] # ["ask"]
 content = """
 Please just ask your question. Don't ask to ask. Don't ask for topic experts or DMs. Don't ping random users. Skip the formalities and ask away! https://dontasktoask.com/
 """
+
+[snippet]
+keywords = ["vscode snippet", "snippet", "!djs", "quick code"]
+content = """
+Woder how you can wite something in [Visual Studio Code](https://code.visualstudio.com) and press tab to write a large chunk of code?
+This is called User Snippets. [Recon](https://youtube.com/reconlxx) has already made a video about that here: <https://youtu.be/ahbjORB5lfk>
+"""
+
+[guide]
+keywords = ["guide"]
+content = """
+The greatest and official guide of all time, [Discordjs.guide](https://discord.js.guide 'Click here to go')
+"""
