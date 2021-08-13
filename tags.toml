@@ -145,3 +145,9 @@ keywords = ["guide"]
 content = """
 The greatest and official guide of all time, [Discordjs.guide](https://discord.js.guide 'Click here to go')
 """
+
+[dead]
+keywords = ["dead"]
+content = """
+https://media.discordapp.net/attachments/860072364963790878/868263751399374918/ded-chat.png?width=400&height=213
+"""
