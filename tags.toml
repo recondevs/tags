@@ -80,7 +80,7 @@ For more information: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 """
 
 [application.commands]
-keywords = ["application.commands", "missing access"]
+keywords = ["application commands", "missing access"]
 content = """
 • `DiscordAPIError: Missing Access when trying to register slash commands`
 • Enable the applications.commands scope for your bot in oauth
