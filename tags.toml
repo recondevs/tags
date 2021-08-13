@@ -79,7 +79,7 @@ The stack trace points exactly to the line the error occurs on.
 For more information: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_property>
 """
 
-[application.commands]
+[application-commands]
 keywords = ["application commands", "missing access"]
 content = """
 • `DiscordAPIError: Missing Access when trying to register slash commands`
@@ -87,7 +87,7 @@ content = """
 • You can also generate an invite by doing `console.log(<Client>.generateInvite({ scopes: ['applications.commands'] }))`
 """
 
-[options.array]
+[OptionsArray]
 keywords = ["options.array"]
 content = """
 `interaction.options.array()` is not a function anymore. 
