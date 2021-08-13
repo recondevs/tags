@@ -151,3 +151,25 @@ keywords = ["dead"]
 content = """
 https://media.discordapp.net/attachments/860072364963790878/868263751399374918/ded-chat.png?width=400&height=213
 """
+
+[replitv16]
+keywords = ["rnv16", "replit-v16", "node-v16", "nodev16"]
+content = """
+**Tips: Node v16 in Replit**
+Create new Repl NodeJS, then add this code below in your package.json.
+```yaml
+'scripts': {
+  'node-update': 'npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH',
+  'node-clean': 'rm -rf node_modules && rm package-lock.json && npm cache clear --force && npm cache clean --force && npm i',
+  'node-update-then-clean': 'npm run node-update && npm run node-clean'
+}
+```
+then run it!
+```yaml
+npm run node-update-then-clean 
+```
+(Optional) If you had packages like canvas or sqlite before, you need to re-install those packages
+```yaml
+npm uninstall canvas && npm i canvas
+```
+"""
