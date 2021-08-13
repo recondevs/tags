@@ -106,7 +106,7 @@ keywords = ["external"]
 content = """
 **<:update:875645449523064852> External Sources**
 We can't help with external *npm packages*, *command handlers*, *event handlers*. Some examples, we are not providing support for *discord-buttons* as there is a video already about it to learn more about it use `v13` tag, different command handlers is just a waste of time to provide support for especially when you don't quite understand what the handler is doing
-• [Discord.js version 13 handler](https://github.com/reconlx/djs-base-handler)
+• [discord.js version 13 handler](<https://www.youtube.com/watch?v=8yLIPTxrj08>)
 """
 
 [version13]
