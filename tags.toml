@@ -158,3 +158,10 @@ keywords = ["dead"]
 content = """
 https://media.discordapp.net/attachments/860072364963790878/868263751399374918/ded-chat.png?width=400&height=213
 """
+
+[vscodeTheme]
+keywords = ["theme", "codetheme", "vsc theme"]
+content = """
+Recon uses the Palenight Theme You can search for `whizkydee.material-palenight-theme`or click the Lonk below!
+<https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme>
+"""
