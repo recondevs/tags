@@ -124,7 +124,8 @@ keywords = ["node"]
 content = """
 **<:update:875645449523064852> NodeJS**
 You need to update your node, [click here to download](<https://nodejs.org/en/download/>)
-If you are on replit [click here](https://discord.com/channels/731532456724922459/766116919983079434/875648198859968522)
+replit -> [click here](https://discord.com/channels/731532456724922459/766116919983079434/875648198859968522)
+heroku -> [click here](https://discord.com/channels/731532456724922459/766116919983079434/876027009065701406)
 """
 
 [asktoask]
