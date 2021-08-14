@@ -124,9 +124,10 @@ keywords = ["node"]
 content = """
 **<:update:875645449523064852> Updating NodeJS**
 • You need version 16.6 and above to run version 13.
-• You need to update your node, [click here to download](<https://nodejs.org/en/download/>)
-• replit -> [click here](https://discord.com/channels/731532456724922459/766116919983079434/875648198859968522)
-• heroku -> [click here](https://discord.com/channels/731532456724922459/766116919983079434/876027009065701406)
+• You can check what version u have by doing `console.log(process.version)`
+• [Local Machine](<https://nodejs.org/en/download/>)
+• [replit](https://discord.com/channels/731532456724922459/766116919983079434/875648198859968522)
+• [Heroku](https://discord.com/channels/731532456724922459/766116919983079434/876027009065701406)
 """
 
 [asktoask]
