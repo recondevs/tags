@@ -164,5 +164,14 @@ recon uses the [Palenight Theme](<https://marketplace.visualstudio.com/items?ite
 [codeFormatter]
 keywords = ["prettier", "codeformatters", "cf"]
 content = """
-Recon uses [prettier](<https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>) to make his code look neat!
+recon uses [prettier](<https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>) to make his code look neat, that is also the reason why the code moves slightly his videos!
+"""
+
+[reconlx] 
+keywords = ['recon',  'reconlx', 'lx']
+content = """
+reconlx's links
+• [GitHub](https://github.com/reconlx)
+• [YouTube](https://youtube.com/reconlxx)
+• [Discord](https://discord.io/reconlx)
 """
