@@ -160,3 +160,9 @@ keywords = ["theme", "codetheme", "vsc theme"]
 content = """
 recon uses the [Palenight Theme](<https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme>)
 """
+
+[codeFormatter]
+keywords = ["prettier", "codeformatters", "cf"]
+content = """
+Recon uses [prettier](<https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>) to make his code look neat!
+"""
