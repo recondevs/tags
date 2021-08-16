@@ -160,3 +160,12 @@ keywords = ["theme", "codetheme", "vsc theme"]
 content = """
 recon uses the [Palenight Theme](<https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme>)
 """
+
+[reconlx]
+keywords = ['recon',  'reconlx', 'lx']
+content = """
+reconlx's links
+• [GitHub](https://github.com/reconlx)
+• [YouTube](https://youtube.com/reconlxx)
+• [Discord](https://discord.io/reconlx)
+"""
