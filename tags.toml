@@ -192,4 +192,7 @@ client.application.commands.set([]);
 """
 
 [bin]
-keywords = ['If your code is too big, consider using a bin.\n[SourceBin](https://sourceb.in)\n[HasteBin](https://hastebin.com)\n[Paste.gg](https://paste.gg)\n[PasteBin](https://pastebin.com)']
+keywords = ['bin']
+content = """
+If your code is too big, consider using a bin.\n[SourceBin](https://sourceb.in)\n[HasteBin](https://hastebin.com)\n[Paste.gg](https://paste.gg)\n[PasteBin](https://pastebin.com)
+"""
