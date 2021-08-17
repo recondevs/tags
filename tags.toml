@@ -196,3 +196,8 @@ keywords = ['bin']
 content = """
 If your code is too big, consider using a bin.\n[SourceBin](https://sourceb.in)\n[HasteBin](https://hastebin.com)\n[Paste.gg](https://paste.gg)\n[PasteBin](https://pastebin.com)
 """
+[sourceCode]
+keywords = ['sourcdecode', 'sc']
+content = """
+Recon stopped posting source code because he wants people to learn from it, not have people copy and paste it. 
+"""
