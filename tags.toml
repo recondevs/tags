@@ -177,3 +177,19 @@ reconlx's links
 • [Discord](<https://discord.io/reconlx>)
 • [Donate?](<https://ko-fi.com/reconlx/tiers>)
 """
+
+[removeallcommands]
+keywords = ['resetcommands']
+content = """
+how to reset slash commands in a bot
+```js
+// guild
+client.guilds.cache.get('guildid').commands.set([]);
+
+// global
+client.application.commands.set([]);
+```
+"""
+
+[bin]
+keywords = ['If your code is too big, consider using a bin.\n[SourceBin](https://sourceb.in)\n[HasteBin](https://hastebin.com)\n[Paste.gg](https://paste.gg)\n[PasteBin](https://pastebin.com)']
