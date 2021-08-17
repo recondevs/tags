@@ -172,7 +172,8 @@ recon uses [prettier](<https://marketplace.visualstudio.com/items?itemName=esben
 keywords = ['recon',  'reconlx', 'lx']
 content = """
 reconlx's links
-• [GitHub](https://github.com/reconlx)
-• [YouTube](https://youtube.com/reconlxx)
-• [Discord](https://discord.io/reconlx)
+• [GitHub](<https://github.com/reconlx>)
+• [YouTube](<https://youtube.com/reconlxx>)
+• [Discord](<https://discord.io/reconlx>)
+• [Donate?](<https://ko-fi.com/reconlx/tiers>)
 """
