@@ -115,6 +115,7 @@ content = """
 We are not providing support for external npm packages, here are some useful links u can learn from.
 • [Project Handler (command, event, slash commands)](<https://youtu.be/8yLIPTxrj08>)
 • [Slash Commands](<https://www.youtube.com/watch?v=EN7LH89TUN4&t=819s>)
+• [Context Menu](<https://youtu.be/3IEUDWbLQE8>)
 • [Buttons](<https://www.youtube.com/watch?v=e3EYsrasPms&t=362s>)
 • [Select / Dropdown menu](<https://www.youtube.com/watch?v=n1hr0Idv4hQ>)
 • [Changes](<https://discordjs.guide/additional-info/changes-in-v13.html#before-you-start>)
