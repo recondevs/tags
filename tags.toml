@@ -197,3 +197,10 @@ keywords = ['bin']
 content = """
 If your code is too big, consider using a bin.\n[SourceBin](https://sourceb.in)\n[HasteBin](https://hastebin.com)\n[Paste.gg](https://paste.gg)\n[PasteBin](https://pastebin.com)
 """
+
+[howto]
+keywords = ["ht", "howto"]
+content = """
+`How to do [X]?` or `How can I do [X]?`
+**Do not ask us how to do something. Make it yourself, and if you got any errors, share them to us and we will try to help you fix it.**
+"""
