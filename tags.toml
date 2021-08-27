@@ -4,6 +4,13 @@ content = """
 tags are  working fine!
 """
 
+[replaceWithYourGuildID]
+keywords = 'guildid', 'undefined commands', 'id']
+content = """
+Go to [handler.js/index.js Line 47](https://github.com/reconlx/djs-base-handler/blob/master/handler/index.js#L47)
+Replace 'replace this with your guild id' with the actual ID of your Guild to fix your Error
+"""
+
 [clientmissingintents]
 keywords = ["cmi", "intents"]
 content = """
