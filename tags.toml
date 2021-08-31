@@ -204,3 +204,16 @@ content = """
 `How to do [X]?` or `How can I do [X]?`
 **Do not ask us how to do something. Make it yourself, and if you got any errors, share them to us and we will try to help you fix it.**
 """
+[learnjs]
+keywords = ["js"]
+content = """
+Here are some places where you can learn js for free
+https://www.w3schools.com/js/
+https://learnjavascript.online/
+https://www.codecademy.com/learn/introduction-to-javascript
+https://www.learn-js.org/
+https://javascript.info/
+Javascript Documentation
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+"""
+L
