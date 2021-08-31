@@ -226,3 +226,29 @@ Here are some places where you can learn js for free
 Javascript Documentation
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript>
 """
+
+[codeblock]
+keywords = ['cb']
+content = """
+**__Codeblock__**
+You shouldn't just write your code in full plain text. Discord has all those fancy stuff to make it better
+for example:
+discord turns
+\```
+hello
+```
+into
+```
+hello
+```
+-------
+You can do some syntax highlightings too:
+Discord turns
+\```js
+this
+```
+into
+```js
+this
+```
+"""
