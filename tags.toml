@@ -209,11 +209,11 @@ content = """
 keywords = ["js"]
 content = """
 Here are some places where you can learn js for free
-https://www.w3schools.com/js/
-https://learnjavascript.online/
-https://www.codecademy.com/learn/introduction-to-javascript
-https://www.learn-js.org/
-https://javascript.info/
+<https://www.w3schools.com/js/>
+<https://learnjavascript.online/>
+<https://www.codecademy.com/learn/introduction-to-javascript>
+<https://www.learn-js.org/>
+<https://javascript.info/>
 Javascript Documentation
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript>
 """
