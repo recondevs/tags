@@ -148,7 +148,8 @@ This is called User Snippets. Recon has already made a video about that here: <h
 [guide]
 keywords = ["guide"]
 content = """
-The greatest and official guide of all time, [Discordjs.guide](https://discord.js.guide 'Click here to go')
+The greatest and official guide of all time, [Discordjs.guide](https://discordjs.guide 'Click here to go')
+Also see: [Discord.js.org - Discord.JS classes, typedefs, properties, methods and many more!](https://discord.js.org 'Click here to go')
 """
 
 [dead-chat]
