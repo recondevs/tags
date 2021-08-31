@@ -206,6 +206,14 @@ content = """
 **Do not ask us how to do something. Make it yourself, and if you got any errors, share them to us and we will try to help you fix it.**
 """
 
+[relaceWithYourGuildID]
+keywords = ["guildID", "commandsofundefined", "guildid"]
+content = """
+`Cannot read property 'commands' of undefined`
+Go to [handler.js/index.js line 47](https://github.com/reconlx/djs-base-handler/blob/master/handler/index.js#L47)
+Replace 'replace this with your guild id' with the actual id of your guild to fix your error.
+"""
+
 [learnjs]
 keywords = ["js"]
 content = """
