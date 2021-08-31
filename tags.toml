@@ -247,10 +247,10 @@ hello
 You can do some syntax highlightings too:
 Discord turns
 \\`\\`\\`js
-this
+this \"is\" 'a' // codeblock!
 \\`\\`\\`
 into
 ```js
-this
+this \"is\" 'a' // codeblock!
 ```
 """
