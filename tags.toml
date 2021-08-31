@@ -148,7 +148,8 @@ This is called User Snippets. Recon has already made a video about that here: <h
 [guide]
 keywords = ["guide"]
 content = """
-The greatest and official guide of all time, [Discordjs.guide](https://discord.js.guide 'Click here to go')
+The greatest and official guide of all time, [Discordjs.guide](https://discordjs.guide 'Click here to go')
+Also see: [Discord.js.org - Discord.JS classes, typedefs, properties, methods and many more!](https://discord.js.org 'Click here to go')
 """
 
 [dead-chat]
@@ -208,7 +209,20 @@ content = """
 [relaceWithYourGuildID]
 keywords = ["guildID", "commandsofundefined", "guildid"]
 content = """
-`I'm getting this error: **Cannot read property 'commands' of undefined**`
+`Cannot read property 'commands' of undefined`
 Go to [handler.js/index.js line 47](https://github.com/reconlx/djs-base-handler/blob/master/handler/index.js#L47)
 Replace 'replace this with your guild id' with the actual id of your guild to fix your error.
+"""
+
+[learnjs]
+keywords = ["js"]
+content = """
+Here are some places where you can learn js for free
+<https://www.w3schools.com/js/>
+<https://learnjavascript.online/>
+<https://www.codecademy.com/learn/introduction-to-javascript>
+<https://www.learn-js.org/>
+<https://javascript.info/>
+Javascript Documentation
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript>
 """
