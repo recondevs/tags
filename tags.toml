@@ -181,7 +181,7 @@ reconlx's links
 """
 
 [removeallcommands]
-keywords = ['resetcommands']
+keywords = ['resetcommands', 'rc']
 content = """
 how to reset slash commands in a bot
 ```js
@@ -206,13 +206,6 @@ content = """
 **Do not ask us how to do something. Make it yourself, and if you got any errors, share them to us and we will try to help you fix it.**
 """
 
-[relaceWithYourGuildID]
-keywords = ["guildID", "commandsofundefined", "guildid"]
-content = """
-`Cannot read property 'commands' of undefined`
-Go to [handler.js/index.js line 47](https://github.com/reconlx/djs-base-handler/blob/master/handler/index.js#L47)
-Replace 'replace this with your guild id' with the actual id of your guild to fix your error.
-"""
 
 [learnjs]
 keywords = ["js"]
@@ -223,34 +216,6 @@ Here are some places where you can learn js for free
 <https://www.codecademy.com/learn/introduction-to-javascript>
 <https://www.learn-js.org/>
 <https://javascript.info/>
-Javascript Documentation
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript>
 """
 
-[codeblock]
-keywords = ['cb']
-content = """
-**__Codeblock__**
-You shouldn't just write your code in full plain text. Discord has all those fancy stuff to make it better
-for example:
-discord turns
-\\`\\`\\`
-hello
-\\`\\`\\`
-into
-```
-hello
-```
-
-**------------------------**
-
-You can do some syntax highlightings too:
-Discord turns
-\\`\\`\\`js
-this \"is\" 'a' // codeblock!
-\\`\\`\\`
-into
-```js
-this \"is\" 'a' // codeblock!
-```
-"""
