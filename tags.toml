@@ -219,3 +219,8 @@ Here are some places where you can learn js for free
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript>
 """
 
+[error]
+keywords = ['error']
+content = """
+https://just-read.it
+"""
