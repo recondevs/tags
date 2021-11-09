@@ -158,12 +158,6 @@ content = """
 https://media.discordapp.net/attachments/860072364963790878/868263751399374918/ded-chat.png?width=400&height=213
 """
 
-[vscodeTheme]
-keywords = ["theme", "codetheme", "vsc theme"]
-content = """
-recon uses the [Palenight Theme](<https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme>)
-"""
-
 [codeFormatter]
 keywords = ["prettier", "codeformatters", "cf"]
 content = """
