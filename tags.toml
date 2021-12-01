@@ -108,11 +108,13 @@ content = """
 We can't help with external *npm packages*, *command handlers*, *event handlers*. Some examples, we are not providing support for *discord-buttons* as there is a video already about it to learn more about it use `v13` tag, different command handlers is just a waste of time to provide support for especially when you don't quite understand what the handler is doing
 """
 
+
 [version13]
 keywords = ["v13"]
 content = """
 **<:update:875645449523064852> Discord.JS Version 13**
-We are not providing support for external npm packages, here are some useful links u can learn from.
+We are not providing support for external npm packages, here are some useful links you can learn from.
+We also are no longer providing support for Discord.js v12, please check out the links below to get started.
 • [Project Handler (command, event, slash commands)](<https://youtu.be/8yLIPTxrj08>)
 • [Slash Commands](<https://www.youtube.com/watch?v=EN7LH89TUN4&t=819s>)
 • [Context Menu](<https://youtu.be/3IEUDWbLQE8>)
@@ -141,7 +143,7 @@ Please just ask your question. Don't ask to ask. Don't ask for topic experts or 
 [snippet]
 keywords = ["vscode snippet", "snippet", "!djs", "quick code"]
 content = """
-Woder how you can wite something in Visual Studio Code and press tab to write a large chunk of code?
+Wonder how you can wite something in Visual Studio Code and press tab to write a large chunk of code?
 This is called User Snippets. Recon has already made a video about that here: <https://youtu.be/ahbjORB5lfk>
 """
 
@@ -150,6 +152,7 @@ keywords = ["guide"]
 content = """
 The greatest and official guide of all time, [Discordjs.guide](https://discordjs.guide 'Click here to go')
 Also see: [Discord.js.org - Discord.JS classes, typedefs, properties, methods and many more!](https://discord.js.org 'Click here to go')
+If you are a beginner check out: [An idiots guide](https://anidiots.guide/)
 """
 
 [dead-chat]
@@ -161,7 +164,7 @@ https://media.discordapp.net/attachments/860072364963790878/868263751399374918/d
 [codeFormatter]
 keywords = ["prettier", "codeformatters", "cf"]
 content = """
-recon uses [prettier](<https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>) to make his code look neat, that is also the reason why the code moves slightly his videos!
+Recon uses [prettier](<https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>) to make his code look neat, that is also the reason why the code moves slightly his videos!
 """
 
 [reconlx] 
@@ -211,6 +214,7 @@ Here are some places where you can learn js for free
 <https://www.learn-js.org/>
 <https://javascript.info/>
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript>
+<https://levelup.gitconnected.com/a-complete-beginners-guide-to-javascript-part-1-d04919d0cb19>
 """
 
 [error]
