@@ -218,3 +218,9 @@ keywords = ['error']
 content = """
 https://just-read.it
 """
+
+[quit]
+keywords = ["quit"]
+content = """
+https://youtu.be/v9jSFtD40Wk
+"""
