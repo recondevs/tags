@@ -224,3 +224,10 @@ keywords = ["quit"]
 content = """
 https://youtu.be/v9jSFtD40Wk
 """
+
+[support]
+keywords = ["support"]
+content = """
+If you are using Discord.js V12, Upgrade to V13 as soon as possible. We do not provide support for older versions of Discord.js. V12 uses the Discord API Version 8, And it's end of support is near. V13 uses an updated version, which is V9
+
+"""
