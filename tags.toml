@@ -82,9 +82,15 @@ For more information: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 [application-commands]
 keywords = ["application commands", "missing access"]
 content = """
+**Slash Commands**
 • `DiscordAPIError: Missing Access when trying to register slash commands`
 • Enable the applications.commands scope for your bot in oauth
 • You can also generate an invite by doing `console.log(<Client>.generateInvite({ scopes: ['applications.commands'] }))`
+
+**Others**
+• Text Channels require `VIEW_CHANNELS` permission to edit or send messages to the channel
+• Voice Channels require `CONNECT` permission to connect to voice channels
+• Reacting to a message requires `READ_MESSAGE_HISTORY` permission
 """
 
 [OptionsArray]
@@ -231,3 +237,4 @@ content = """
 If you are using Discord.js V12, Upgrade to V13 as soon as possible. We do not provide support for older versions of Discord.js. V12 uses the Discord API Version 8, And it's end of support is near. V13 uses an updated version, which is V9
 **If you're planning to upgrade, Check this update guide out: https://discordjs.guide/additional-info/changes-in-v13.html#before-you-start**
 """
+
