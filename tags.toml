@@ -242,3 +242,17 @@ If you are using Discord.js V12, Upgrade to V13 as soon as possible. We do not p
 **If you're planning to upgrade, Check this update guide out: https://discordjs.guide/additional-info/changes-in-v13.html#before-you-start**
 """
 
+[w3school]
+keywords = ["now3", "now3school", "w3schools"]
+content = """
+**W3Schools** isn't a good resource for learning anything beyond the most basic HTML & CSS. Its code examples:
+
+👎 - regularly utilise outdated methods. (e.g. float for non-editorial layouts, frequent use of var & jQuery)
+👎  - consistently fail to utilise modern methods. (e.g. HTML5 semantic elements, flexbox & grid and features from ES6 onwards)
+👎  - are generally untidy and fail to abide by best practices.
+
+Instead, please use:
+👍 - the well maintained MDN Web Docs (https://developer.mozilla.org) as your go to reference for front-end development
+
+*Credits: The Coding Den*
+"""
