@@ -242,3 +242,11 @@ If you are using Discord.js V12, Upgrade to V13 as soon as possible. We do not p
 **If you're planning to upgrade, Check this update guide out: https://discordjs.guide/additional-info/changes-in-v13.html#before-you-start**
 """
 
+[indentation]
+keywords = ["indentation", "spacing"]
+content = """
+"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."                  
+                        – Martin Fowler
+
+https://media.discordapp.net/attachments/765926464628719627/952886993518465054/images_1.png
+"""
