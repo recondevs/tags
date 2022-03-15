@@ -242,3 +242,34 @@ If you are using Discord.js V12, Upgrade to V13 as soon as possible. We do not p
 **If you're planning to upgrade, Check this update guide out: https://discordjs.guide/additional-info/changes-in-v13.html#before-you-start**
 """
 
+[operators]
+keywords = ["operators", "tip5", "ops"]
+content = """ 
+Tip 5: **Operators**
+
+```cs
+<     # Less than
+>     # Bigger than
+<=    # Equal or Less than
+>=    # Equal or Bigger than
+==    # Equal
+===   # Strict Equal (Case sensitive)
+!=    # Not Equal
+!==   # Strict not Equal (Case sensitive)
+? :   # Ternary operator
+?.    # Optional chaining
+&&    # Logical and
+??    # Nullish coalescing Operator
+!!    # Convert value to Boolean
+||    # Logical or
+!     # Logical not
+||=   # Logical OR Assignment
+**    # Exponentiation Operator
+/=    # Division Assignment
+**=   # Exponential Assignment
+...   # Spread Syntax```
+
+Not all operators are listed here, the rest is explained in the link:
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators>
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/>
+"""
