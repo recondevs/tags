@@ -253,4 +253,5 @@ Solution 2: Check for firewall and remove anything that could possibly be relate
 Solution 1: Wait for a few minutes and try again
 > Problem 2: Key you're searching for doesn't exist or can't be read by mongodb
 Solution 1: Make sure the key inside `findOne()` doesn't have a typo
+Solution 2: Make sure there aren't any typos where you create the model
 """
