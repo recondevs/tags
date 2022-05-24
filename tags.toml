@@ -242,3 +242,15 @@ If you are using Discord.js V12, Upgrade to V13 as soon as possible. We do not p
 **If you're planning to upgrade, Check this update guide out: https://discordjs.guide/additional-info/changes-in-v13.html#before-you-start**
 """
 
+[buffering]
+keywords = ["buffering"]
+content = """
+Problems of `buffering timed out after 10000ms` in mongodb
+> Problem 1: Network issue
+Solution 1: Restart your router
+Solution 2: Check for firewall and remove anything that could possibly be related to mongodb
+> Problem 2: Mongodb issue
+Solution 1: Wait for a few minutes and try again
+> Problem 2: Key you're searching for doesn't exist or can't be read by mongodb
+Solution 1: Make sure the key inside `findOne()` doesn't have a typo
+"""
