@@ -23,7 +23,7 @@ Note - Using **ALL** available intents will slow your bot down and is **NOT** re
 """
 
 [notworking]
-keywords = ["nw", "dnw"]
+keywords = ["nw", "dnw", "nowork"]
 content = """
 When someone asks a question about a problem with their code, we need to know what's wrong with it. Stating “it's not working” is not helpful.
 Please give us the full description of the problem, which should include the following:
