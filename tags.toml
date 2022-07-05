@@ -1,7 +1,7 @@
 [test]
 keywords = ["test"]
 content = """
-tags are  working fine!
+Tags are working!
 """
 
 [clientmissingintents]
@@ -10,12 +10,16 @@ content = """
 Error `[CLIENT_MISSING_INTENTS]`
 Fix:
 Discord.js v13 requires you to add intents to the client
-```diff
-- const client = new Discord.Client()
-- const client = new Discord.Client({ ws: { intents: 32767 } })
+```js
+const { Client, Intents } = require('discord.js');
 
-+ const client = new Discord.Client({ intents: 32767 })
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 ```
+[Gateway Intents](<https://discordjs.guide/popular-topics/intents.html#gateway-intents>)
+[Available Intents from discord.js](<https://discord.js.org/#/docs/discord.js/stable/class/Intents?scrollTo=s-FLAGS>)
+[List of all Intents](<https://discord.com/developers/docs/topics/gateway#list-of-intents>
+
+Note - Using **ALL** available intents will slow your bot down and is **NOT** recommended. Only use the intents your bot actually needs.
 """
 
 [notworking]
@@ -25,7 +29,7 @@ When someone asks a question about a problem with their code, we need to know wh
 Please give us the full description of the problem, which should include the following:
   • what needs to be accomplished
   • what has been tried already (including relevant code!)
-  • a description of what the code did
+  • a description of what the code does
   • an explanation of why this behavior does not achieve the goal
 """
 
@@ -244,7 +248,7 @@ If you are using Discord.js V12, Upgrade to V13 as soon as possible. We do not p
 """
 
 [buffering]
-keywords = ["buffering"]
+keywords = ["buffering", "buffer"]
 content = """
 Problems of `buffering timed out after 10000ms` in mongodb
 > Problem 1: Network issue
