@@ -86,12 +86,19 @@ For more information: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 [application-commands]
 keywords = ["application commands", "missing access"]
 content = """
-**Slash Commands**
-• `DiscordAPIError: Missing Access when trying to register slash commands`
-• Enable the applications.commands scope for your bot in oauth
-• You can also generate an invite by doing `console.log(<Client>.generateInvite({ scopes: ['applications.commands'] }))`
+`DiscordAPIError: Missing Access`
 
-**Others**
+**Slash Commands**
+• Your bot may not have access to create slash commands, which means you should re-invite your bot with the correct perms
+• Permission calculator: [learn more](<https://finitereality.github.io/permissions-calculator>)
+• You can use #generateInvite instead: [learn more](<https://discord.js.org/#/docs/discord.js/stable/class/Client?scrollTo=generateInvite>)
+Bot invite structure:
+```prolog
+https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=0
+```
+• `CLIENT_ID` needs to be replaced with your bot id
+
+**Other possible reasons**
 • Text Channels require `VIEW_CHANNELS` permission to edit or send messages to the channel
 • Voice Channels require `CONNECT` permission to connect to voice channels
 • Reacting to a message requires `READ_MESSAGE_HISTORY` permission
