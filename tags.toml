@@ -89,9 +89,10 @@ content = """
 `DiscordAPIError: Missing Access`
 
 **Slash Commands**
-• Your bot may not have access to create slash commands, which means you should re-invite your bot with the correct perms
-• Permission calculator: [learn more](<https://finitereality.github.io/permissions-calculator>)
-• You can use #generateInvite instead: [learn more](<https://discord.js.org/#/docs/discord.js/stable/class/Client?scrollTo=generateInvite>)
+> • Your bot may not have access to create slash commands, which means you should re-invite your bot with the correct perms
+> • Permission calculator: [learn more](<https://finitereality.github.io/permissions-calculator>)
+> • You can use #generateInvite instead: [learn more](<https://discord.js.org/#/docs/discord.js/stable/class/Client?scrollTo=generateInvite>)
+
 Bot invite structure:
 ```prolog
 https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=0
@@ -99,9 +100,9 @@ https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=0
 • `CLIENT_ID` needs to be replaced with your bot id
 
 **Other possible reasons**
-• Text Channels require `VIEW_CHANNELS` permission to edit or send messages to the channel
-• Voice Channels require `CONNECT` permission to connect to voice channels
-• Reacting to a message requires `READ_MESSAGE_HISTORY` permission
+> • Text Channels require `VIEW_CHANNELS` permission to edit or send messages to the channel
+> • Voice Channels require `CONNECT` permission to connect to voice channels
+> • Reacting to a message requires `READ_MESSAGE_HISTORY` permission
 """
 
 [OptionsArray]
@@ -144,7 +145,7 @@ We also are no longer providing support for Discord.js v12, please check out the
 keywords = ["node"]
 content = """
 **<:update:875645449523064852> Updating Node JS**
-You need version 16.6 and above to run version 13.
+You need version 16.6 and above to run version discord.js v13.
 You can check what version u have by doing `console.log(process.version)`
 • [Local Machine](<https://nodejs.org/en/download/>)
 • [replit](https://discord.com/channels/731532456724922459/766116919983079434/875648198859968522)
@@ -257,13 +258,16 @@ If you are using Discord.js V12, Upgrade to V13 as soon as possible. We do not p
 [buffering]
 keywords = ["buffering", "buffer"]
 content = """
-Problems of `buffering timed out after 10000ms` in mongodb
-> Problem 1: Network issue
-Solution 1: Restart your router
-Solution 2: Check for firewall and remove anything that could possibly be related to mongodb
-> Problem 2: Mongodb issue
-Solution 1: Wait for a few minutes and try again
-> Problem 2: Key you're searching for doesn't exist or can't be read by mongodb
-Solution 1: Make sure the key inside `findOne()` doesn't have a typo
-Solution 2: Make sure there aren't any typos where you create the model
+Possible issues with `buffering timed out after 10000ms` in mongodb
+
+**Network issue**
+> • Restart your router
+> • Check for firewall and remove anything that could possibly be related to mongodb
+
+**Mongodb issue**
+> • Wait for a few minutes and try again
+
+**Key you're searching for doesn't exist or can't be read by mongodb**
+> • Make sure the key inside `findOne()` doesn't have a typo
+> • Make sure there aren't any typos where you create the model
 """
