@@ -24,7 +24,7 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] }); // v14 uses PascalCase
 ```
 [Gateway Intents](<https://discordjs.guide/popular-topics/intents.html#gateway-intents>)
-Available Intents - **[v13](<https://discord.js.org/#/docs/discord.js/stable/class/Intents?scrollTo=s-FLAGS>) [v14](<https://discord.js.org/#/docs/discord.js/main/class/IntentsBitField?scrollTo=s-Flags>)**
+Available Intents: **[v13](<https://discord.js.org/#/docs/discord.js/stable/class/Intents?scrollTo=s-FLAGS>) • [v14](<https://discord.js.org/#/docs/discord.js/main/class/IntentsBitField?scrollTo=s-Flags>)**
 [List of all Intents](<https://discord.com/developers/docs/topics/gateway#list-of-intents>)
 
 Note - Using **ALL** available intents will slow your bot down and is **NOT** recommended. Only use the intents your bot actually needs.
@@ -99,7 +99,7 @@ content = """
 **Slash Commands**
 > • When deploying slash commands: Enable the `applications.commands` scope (for more information see the **[adding your bot](<https://discordjs.guide/preparations/adding-your-bot-to-servers>)** section).
 > • Permission calculator: [learn more](<https://finitereality.github.io/permissions-calculator>)
-> • You can use #generateInvite instead: [v13](<https://discord.js.org/#/docs/discord.js/stable/class/Client?scrollTo=generateInvite>) [v14](<https://discord.js.org/#/docs/discord.js/main/class/Client?scrollTo=generateInvite>)
+> • You can use #generateInvite instead: **[v13](<https://discord.js.org/#/docs/discord.js/stable/class/Client?scrollTo=generateInvite>) • [v14](<https://discord.js.org/#/docs/discord.js/main/class/Client?scrollTo=generateInvite>)**
 
 Bot invite structure:
 ```prolog
