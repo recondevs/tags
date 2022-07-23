@@ -68,7 +68,7 @@ content = """
 [rule13]
 keywords = ["r13"]
 content = """
-13. No crossposting in #『📗』help-1 and #『📕』help-2 
+13. No crossposting in <#766116919983079434> <#862905002203807785> 
 """
 
 [AbortController]
