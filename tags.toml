@@ -7,13 +7,21 @@ Tags are working!
 [clientmissingintents]
 keywords = ["cmi", "intents"]
 content = """
-Error `[CLIENT_MISSING_INTENTS]`
+Error `[CLIENT_MISSING_INTENTS]` or `[ClientMissingIntents]`
 Fix:
-Discord.js v13 requires you to add intents to the client
+Discord.js v13 and up requires you to add intents to the client
 ```js
+v13
 const { Client, Intents } = require('discord.js');
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] }); // v13 uses SCREAMING_SNAKE_CASE
+
+================================================================================================
+
+v14
+const { Client, GatewayIntentBits } = require('discord.js');
+
+const client = new Client({ intents: [GatewayIntentBits.Guilds] }); // v14 uses PascalCase
 ```
 [Gateway Intents](<https://discordjs.guide/popular-topics/intents.html#gateway-intents>)
 [Available Intents from discord.js](<https://discord.js.org/#/docs/discord.js/stable/class/Intents?scrollTo=s-FLAGS>)
@@ -25,12 +33,12 @@ Note - Using **ALL** available intents will slow your bot down and is **NOT** re
 [notworking]
 keywords = ["nw", "dnw", "nowork"]
 content = """
-When someone asks a question about a problem with their code, we need to know what's wrong with it. Stating “it's not working” is not helpful.
+When someone asks a question about a problem with their code, we need to know what's wrong with it. Stating “it's not working” is not helpful for any of us.
 Please give us the full description of the problem, which should include the following:
-  • what needs to be accomplished
-  • what has been tried already (including relevant code!)
-  • a description of what the code does
-  • an explanation of why this behavior does not achieve the goal
+  • What needs to be accomplished?
+  • What have you attempted already? (including relevant code!)
+  • Detailed description of what the code does
+  • Explain why this behavior does not achieve the goal
 """
 
 [rule2]
@@ -71,7 +79,7 @@ content= """
 • `SyntaxError: Unexpected token '?' at node_modules/discord.js/src/rest/RESTManager.js:32`
 • Discord.js v13 requires Node.js version 16.6 or newer to run!
 • If you run your bot through a process manager, make sure to restart the daemon process to use the new node version
-• Unsure you are using the right one? Log `console.log(process.version)` in your code
+• Not sure if you're using the right version? Log `console.log(process.version)` in your code or `node -v` in your terminal
 """
 
 [of-undefined]
@@ -89,20 +97,23 @@ content = """
 `DiscordAPIError: Missing Access`
 
 **Slash Commands**
-> • Your bot may not have access to create slash commands, which means you should re-invite your bot with the correct perms
+> • When deploying slash commands: Enable the `applications.commands` scope (for more information see the **[adding your bot](<https://discordjs.guide/preparations/adding-your-bot-to-servers>)** section).
 > • Permission calculator: [learn more](<https://finitereality.github.io/permissions-calculator>)
-> • You can use #generateInvite instead: [learn more](<https://discord.js.org/#/docs/discord.js/stable/class/Client?scrollTo=generateInvite>)
+> • You can use #generateInvite instead: [v13](<https://discord.js.org/#/docs/discord.js/stable/class/Client?scrollTo=generateInvite>) [v14](https://discord.js.org/#/docs/discord.js/main/class/Client?scrollTo=generateInvite)
 
 Bot invite structure:
 ```prolog
-https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=0
+https://discord.com/api/oauth2/authorize?client_id=123456789012345678&permissions=0&scope=bot%20applications.commands
 ```
-• `CLIENT_ID` needs to be replaced with your bot id
+• `client_id=...` needs to be replaced with your bot id
+• `permissions=...` describes what permissions your bot will have on the server you are adding it to.
+• `scope=bot%20applications.commands` specifies that you want to add this application as a Discord bot, with the ability to create slash commands.
 
 **Other possible reasons**
-> • Text Channels require `VIEW_CHANNELS` permission to edit or send messages to the channel
-> • Voice Channels require `CONNECT` permission to connect to voice channels
-> • Reacting to a message requires `READ_MESSAGE_HISTORY` permission
+> • Text Channels require `VIEW_CHANNEL`/`ViewChannel` permission to edit or send messages to the channel
+> • Voice Channels require `CONNECT`/`Connect` permission to connect to voice channels
+> • Reacting to a message requires `READ_MESSAGE_HISTORY`/`ReadMessageHistory` permission in the channel the message was sent
+> • Timing out a member requires `MODERATE_MEMBERS`/`ModerateMembers`
 """
 
 [OptionsArray]
@@ -126,27 +137,34 @@ content = """
 We can't help with external *npm packages*, *command handlers*, *event handlers*. Some examples, we are not providing support for *discord-buttons* as there is a video already about it to learn more about it use `v13` tag, different command handlers is just a waste of time to provide support for especially when you don't quite understand what the handler is doing
 """
 
-
-[version13]
-keywords = ["v13"]
+[version14]
+keywords = ["v13", "v14", "support", "upgrade"]
 content = """
-**<:update:875645449523064852> Discord.JS Version 13**
+**<:update:875645449523064852> Discord.JS Version 13 and up**
 We are not providing support for external npm packages, here are some useful links you can learn from.
-We also are no longer providing support for Discord.js v12, please check out the links below to get started.
+
+We also do not support any discord.js version below v13, so if you wish to receive help, consider upgrading to a higher version.
+*You may receive errors with using older versions of discord.js due to the `Text-in-Voice` channels. Upgrading will fix those errors.*
+
+• [Changes in v13](<https://discordjs.guide/additional-info/changes-in-v13.html>)
+• [Changes in v14](<https://discordjs.guide/additional-info/changes-in-v14.html>)
+
+> **The videos below use discord.js v13, so please check the guide link above to convert the code to use v14**
 • [Project Handler (command, event, slash commands)](<https://youtu.be/8yLIPTxrj08>)
 • [Slash Commands](<https://www.youtube.com/watch?v=EN7LH89TUN4&t=819s>)
 • [Context Menu](<https://youtu.be/3IEUDWbLQE8>)
 • [Buttons](<https://www.youtube.com/watch?v=e3EYsrasPms&t=362s>)
 • [Select / Dropdown menu](<https://www.youtube.com/watch?v=n1hr0Idv4hQ>)
-• [Changes](<https://discordjs.guide/additional-info/changes-in-v13.html#before-you-start>)
 """
 
 [node]
 keywords = ["node"]
 content = """
 **<:update:875645449523064852> Updating Node JS**
-You need version 16.6 and above to run version discord.js v13.
-You can check what version u have by doing `console.log(process.version)`
+Node `16.6 or higher` is required for discord.js v13
+Node `16.9 or higher` is required for discord.js v14
+
+You can check what version you have by doing `console.log(process.version)` or `node -v` in your terminal
 • [Local Machine](<https://nodejs.org/en/download/>)
 • [replit](https://discord.com/channels/731532456724922459/766116919983079434/875648198859968522)
 • [Heroku](https://discord.com/channels/731532456724922459/766116919983079434/876027009065701406)
@@ -219,7 +237,7 @@ If your code is too big, consider using a bin.
 keywords = ["ht", "howto"]
 content = """
 `How to do [X]?` or `How can I do [X]?`
-**Do not ask us how to do something. Make it yourself, and if you got any errors, share them to us and we will try to help you fix it.**
+**We are here to help you, not write code for you. If you have any errors, share them with us and we will try to help you fix it.**
 """
 
 
@@ -246,13 +264,6 @@ https://just-read.it
 keywords = ["quit"]
 content = """
 https://youtu.be/v9jSFtD40Wk
-"""
-
-[support]
-keywords = ["support"]
-content = """
-If you are using Discord.js V12, Upgrade to V13 as soon as possible. We do not provide support for older versions of Discord.js. V12 uses the Discord API Version 8, And it's end of support is near. V13 uses an updated version, which is V9
-**If you're planning to upgrade, Check this update guide out: https://discordjs.guide/additional-info/changes-in-v13.html#before-you-start**
 """
 
 [buffering]
