@@ -7,18 +7,18 @@ Tags are working!
 [clientmissingintents]
 keywords = ["cmi", "intents"]
 content = """
-Error `[CLIENT_MISSING_INTENTS]` or `[ClientMissingIntents]`
+Error `[CLIENT_MISSING_INTENTS] / [ClientMissingIntents]`
 Fix:
 Discord.js v13 and up requires you to add intents to the client
 ```js
-v13
+// v13
 const { Client, Intents } = require('discord.js');
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] }); // v13 uses SCREAMING_SNAKE_CASE
 
 ================================================================================================
 
-v14
+// v14
 const { Client, GatewayIntentBits } = require('discord.js');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] }); // v14 uses PascalCase
@@ -110,10 +110,10 @@ https://discord.com/api/oauth2/authorize?client_id=123456789012345678&permission
 • `scope=bot%20applications.commands` specifies that you want to add this application as a Discord bot, with the ability to create slash commands.
 
 **Other possible reasons**
-> • Text Channels require `VIEW_CHANNEL`/`ViewChannel` permission to edit or send messages to the channel
-> • Voice Channels require `CONNECT`/`Connect` permission to connect to voice channels
-> • Reacting to a message requires `READ_MESSAGE_HISTORY`/`ReadMessageHistory` permission in the channel the message was sent
-> • Timing out a member requires `MODERATE_MEMBERS`/`ModerateMembers`
+> • Text Channels require `VIEW_CHANNEL` / `ViewChannel` permission to edit or send messages to the channel
+> • Voice Channels require `CONNECT` / `Connect` permission to connect to voice channels
+> • Reacting to a message requires `READ_MESSAGE_HISTORY` / `ReadMessageHistory` permission in the channel the message was sent
+> • Timing out a member requires `MODERATE_MEMBERS` / `ModerateMembers`
 """
 
 [OptionsArray]
