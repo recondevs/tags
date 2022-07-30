@@ -186,9 +186,9 @@ This is called User Snippets. Recon has already made a video about that here: <h
 [guide]
 keywords = ["guide"]
 content = """
-The greatest and official guide of all time, [Discordjs.guide](https://discordjs.guide 'Click here to go')
-Also see: [Discord.js.org - Discord.JS classes, typedefs, properties, methods and many more!](https://discord.js.org 'Click here to go')
-If you are a beginner check out: [An idiots guide](https://anidiots.guide/)
+Discord.js guide - **[v13](<https://v13.discordjs.guide>) • [v14](<https://discordjs.guide>)**
+Also check the Discord.js documentation - **[v13](<https://discord.js.org/#/docs/discord.js/v13/general/welcome>) • [v14](<https://discord.js.org>)**
+If you are a beginner and need a bit more help - [An idiots guide](<https://anidiots.guide/>) (**This is only for v13 at the moment**)
 """
 
 [dead-chat]
@@ -216,7 +216,7 @@ reconlx's links
 [removeallcommands]
 keywords = ['resetcommands', 'rc']
 content = """
-how to reset slash commands in a bot
+Deleting all commands using your client
 ```js
 // guild
 client.guilds.cache.get('guildid').commands.set([]);
@@ -224,13 +224,15 @@ client.guilds.cache.get('guildid').commands.set([]);
 // global
 client.application.commands.set([]);
 ```
+
+<:djsguide:862626783890636830> Deleting all commands using REST - 
+[read more](<https://discordjs.guide/creating-your-bot/deleting-commands.html#deleting-all-commands>)
 """
 
 [bin]
 keywords = ['bin']
 content = """
-If your code is too big, consider using a bin.
-[SourceBin](<https://sourceb.in>)\n[HasteBin](<https://hastebin.com>)\n[Paste.gg](<https://paste.gg>)\n[PasteBin](<https://pastebin.com>)
+To share long code snippets use a service like [gist](<https://gist.github.com>), [sourcebin](<https://sourceb.in>), [starbin](<https://starb.in>), or similar instead of posting them as large code blocks.
 """
 
 [howto]
