@@ -116,14 +116,6 @@ https://discord.com/api/oauth2/authorize?client_id=123456789012345678&permission
 > • Timing out a member requires `MODERATE_MEMBERS` / `ModerateMembers`
 """
 
-[OptionsArray]
-keywords = ["options.array"]
-content = """
-`interaction.options.array()` is not a function anymore. 
-Replace `array()` with data. Do not put `()` around it, as it is a property and not a function
-Read more about CommandInteractionOptionResolver#data [here](https://discord.js.org/#/docs/main/stable/class/CommandInteractionOptionResolver?scrollTo=data)
-"""
-
 [tias]
 keywords = ["tias", "try it and see"]
 content = """
