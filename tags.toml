@@ -276,3 +276,34 @@ Possible issues with `buffering timed out after 10000ms` in mongodb
 > • Make sure the key inside `findOne()` doesn't have a typo
 > • Make sure there aren't any typos where you create the model
 """
+
+[replaceGuildId]
+keywords = ['guildId', 'replace_guildId', 'replace']
+content = """
+If you are getting the error below in recon's handler:
+```ts
+TypeError: Cannot read properties of undefined (reading 'commands')
+```
+
+• Replace "replace this with your guild id" with your own guild ID in `handler/index.js`
+```js
+    client.on("ready", async () => {
+        // Register for a single guild
+        await client.guilds.cache
+            .get("replace this with your guild id")
+            .commands.set(arrayOfSlashCommands);
+
+        // Register for all the guilds the bot is in
+        // await client.application.commands.set(arrayOfSlashCommands);
+    });
+```
+
+**- How can I find my guild ID?**
+
+**1.** Make sure you have Developer Mode turned on in User-Settings/Advanced/Developer Mode
+**2.** Right click your server name you want to register application commands for
+**3.** Click Copy ID
+**4.** Replace "replace this with your guild id" with the guild ID.
+
+*Please check out <https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-> for more information on getting discord IDs.*
+"""
